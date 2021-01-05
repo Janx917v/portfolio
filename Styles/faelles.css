@@ -1,7 +1,3 @@
-.burgermenu {
-    display: none;
-}
-
 .socialMedias {
     margin-top: -3.12rem;
     float: right;
@@ -30,7 +26,17 @@ footer {
     padding: .15rem;
 }
 
+
+
 @media (max-width: 650px) {
+
+    .menulink {
+        display: none;
+    }
+
+    .menulinklast {
+        display: none;
+    }
 
     burgermenu {
         display: block;
@@ -108,5 +114,11 @@ footer {
     .burgermenulinklast:hover:after {
         width: 100%;
         left: 0;
+    }
+}
+
+@media (min-width: 651px) {
+    .burgermenu {
+        display: none;
     }
 }
