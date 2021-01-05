@@ -1,3 +1,35 @@
+.burgermenu {
+    display: none;
+}
+
+.socialMedias {
+    margin-top: -3.12rem;
+    float: right;
+    margin-right: 1.6rem;
+
+}
+
+.facebook {
+    width: 2.9rem;
+    height: 2.9rem;
+}
+
+.instagram {
+    width: 2.9rem;
+    height: 2.9rem;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: #f810e7;
+    color: black;
+    text-align: left;
+    padding: .15rem;
+}
+
 @media (max-width: 650px) {
 
     burgermenu {
@@ -18,6 +50,11 @@
     .burgerknap {
         margin-right: 2rem;
 
+    }
+
+    .hidden {
+        opacity: 0;
+        transform: translateX(150%);
 
     }
 
