@@ -1,0 +1,148 @@
+#foto_1_container {
+    position: absolute;
+    top: 0vw;
+    left: 12vw;
+    border: 3px solid white;
+    margin: 33px;
+    width: 65px;
+    height: 65px;
+}
+
+#foto_1_sprite {
+    font-size: 13px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+/* ------------------------------  */
+
+#foto_2_container {
+    position: absolute;
+    top: 12vw;
+    left: 10vw;
+    border: 3px solid white;
+    margin: 33px;
+    width: 65px;
+    height: 65px;
+}
+
+
+#foto_2_sprite {
+    font-size: 13px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+/* ------------------------------  */
+
+#foto_3_container {
+    position: absolute;
+    top: 22vw;
+    left: 6vw;
+    border: 3px solid white;
+    margin: 33px;
+    width: 65px;
+    height: 65px;
+}
+
+#foto_3_sprite {
+    font-size: 13px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+/* ------------------------------  */
+
+#foto_4_container {
+    position: absolute;
+    top: 32vw;
+    left: 16vw;
+    border: 3px solid white;
+    margin: 33px;
+    width: 65px;
+    height: 65px;
+}
+
+#foto_4_sprite {
+    font-size: 13px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+/* ------------------------------  */
+
+#foto_5_container {
+    position: absolute;
+    top: 2vw;
+    left: 0vw;
+    border: 3px solid white;
+    margin: 33px;
+    width: 65px;
+    height: 65px;
+
+}
+
+#foto_5_sprite {
+    font-size: 13px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+/* ------------------------------  */
+
+#foto_6_container {
+    position: absolute;
+    top: 42vw;
+    left: 36vw;
+    border: 3px solid white;
+    margin: 33px;
+    width: 65px;
+    height: 65px;
+
+}
+
+#foto_6_sprite {
+    font-size: 13px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+/* ------------------------------  */
+
+#foto_7_container {
+    position: absolute;
+    top: 14vw;
+    left: 35vw;
+    border: 3px solid white;
+    margin: 33px;
+    width: 65px;
+    height: 65px;
+
+}
+
+#foto_7_sprite {
+    font-size: 13px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
