@@ -82,8 +82,9 @@ p {
     line-height: 1.5;
 }
 
+/* ---------------  Oprindelig hed den 650px: ---------------  */
 
-@media (max-width: 650px) {
+@media (max-width: 767px) {
 
     .menulink {
         display: none;
