@@ -1,3 +1,7 @@
+img {
+    width: 100%;
+}
+
 header {
     position: relative;
     height: 0;
@@ -6,11 +10,29 @@ header {
 
 body {
     background-color: #000000;
-
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
+
 
 nav {
     background-color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+    /*  flex-direction: column;
+        height: 65vh;
+        text-align: right;*/
+}
+
+a {
+    font-family: 'Orbitron', sans-serif;
+    color: #000000;
+    text-decoration: none;
 }
 
 .socialMedias {
@@ -41,6 +63,24 @@ footer {
     padding: .15rem;
 }
 
+h1 {
+    font-family: 'Major Mono Display', monospace;
+}
+
+h2 {
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+}
+
+/* figcaption {
+    font-family: 'Orbitron', sans-serif;
+} */
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    line-height: 1.5;
+}
 
 
 @media (max-width: 650px) {
@@ -53,16 +93,19 @@ footer {
         display: none;
     }
 
-    burgermenu {
+    .burgermenu {
         display: block;
         float: right;
-        font-size: 3rem;
+        font-size: 25px;
         padding: 0;
         text-align: right;
+        height: 50px;
+        width: 50%
     }
 
     #burgerknap {
-        margin-right: 2rem;
+        margin-right: 15px;
+        margin-top: 5px;
         display: inline-block;
         cursor: pointer;
 
@@ -75,33 +118,32 @@ footer {
 
     .hidden {
         opacity: 0;
-        transform: translateX(150%);
 
     }
 
     .burgermenulink {
-        font-family: 'PT Mono', monospace;
+        font-family: 'Orbitron', sans-serif;
 
         cursor: pointer;
-        text-decoration: none;
+        /*        text-decoration: none;
+        */
     }
 
     #burgersection {
         position: relative;
         transition: transform 0.3s;
-        transform-style: top right;
-        background: #c7b5a7;
+        background: #ffffff;
         margin-top: 1.5rem;
-        height: 35rem;
-        line-height: 100px;
+        line-height: 50px;
         z-index: 2;
     }
 
     #burgersection li {
         margin-top: -0.75rem;
-        margin-right: 2rem;
-        text-align: center;
+        margin-right: 20;
+        text-align: end;
         padding: 10px;
+        padding-right: 30px;
     }
 
     .burgermenulink:link {

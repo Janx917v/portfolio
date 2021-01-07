@@ -1,0 +1,62 @@
+#cv {
+    position: absolute;
+
+}
+
+#cv_container {
+    position: absolute;
+    top: -2vw;
+    left: 0vw;
+    border: 3px solid white;
+    margin: 34px;
+    width: 70px;
+    /*
+    height: 70px;
+*/
+}
+
+
+#cv_sprite {
+    font-size: 17px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /*
+    padding: 12px;
+    border-radius: 26px;
+*/
+}
+
+#selvportraet {
+    position: absolute;
+    background-image: url(../Foto/Selvportraet_1.png);
+    background-size: cover;
+    width: 39vw;
+    height: 82vh;
+    top: 2vw;
+    left: -2vw;
+}
+
+#underskrift {
+    position: absolute;
+    background-image: url(../Foto/Underskrift.png);
+    background-size: cover;
+    width: 13vw;
+    height: 14vh;
+    top: 32.3vw;
+    left: 72vw;
+
+}
+
+#tekst {
+    position: absolute;
+    top: -2vw;
+    left: 50vw;
+    border: 3px solid white;
+    margin: 35px;
+    width: 600px;
+    height: 630px;
+    padding: 30px;
+}
