@@ -1,3 +1,7 @@
+main {
+    max-width: 1700px;
+}
+
 img {
     width: 100%;
 }
@@ -117,7 +121,7 @@ a {
 
     #first_section .section_wrapper {
         display: grid;
-        grid-template-rows: 3fr 1fr;
+        grid-template-rows: auto;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -133,7 +137,7 @@ a {
 
     #third_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr auto 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -150,7 +154,7 @@ a {
 
     #fifth_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr auto;
+        grid-template-columns: 2fr 1fr;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -166,7 +170,7 @@ a {
 
     #seventh_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr auto;
+        grid-template-columns: 2fr 1fr;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -174,7 +178,7 @@ a {
 
     #eigth_section .section_wrapper {
         display: grid;
-        grid-template-columns: 5fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -182,7 +186,7 @@ a {
 
     #ninth_section .section_wrapper {
         display: grid;
-        grid-template-rows: 3fr 1fr;
+        grid-template-rows: auto;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;

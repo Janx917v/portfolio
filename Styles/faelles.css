@@ -134,7 +134,10 @@ li {
 }
 
 
+
 @media (max-width: 800px) {
+
+
 
     .menulink {
         display: none;
@@ -227,5 +230,32 @@ li {
 @media (min-width: 801px) {
     .burgermenu {
         display: none;
+    }
+
+    .grow:hover {
+        transform: scale(2) translateX(10vw);
+        z-index: 50;
+    }
+
+    .grow_1:hover {
+        transform: scale(1.5);
+        z-index: 50;
+    }
+
+    .grow_2:hover {
+        transform: scale(2.5);
+        z-index: 50;
+    }
+
+    .grow_r:hover {
+        transform: scale(1.8) translateX(10vw);
+    }
+
+    .grow_l:hover {
+        transform: scale(1.8) translateX(-10vw);
+    }
+
+    .grow_m:hover {
+        transform: scale(1.8);
     }
 }

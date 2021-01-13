@@ -902,21 +902,6 @@
         font-size: 1.5rem;
     }
 
-    .grow:hover {
-        transform: scale(2);
-        z-index: 50;
-    }
-
-    .grow_1:hover {
-        transform: scale(1.5);
-        z-index: 50;
-    }
-
-    .grow_2:hover {
-        transform: scale(2.5);
-        z-index: 50;
-    }
-
     /*-------------- UNDERSKRIFT ---------------- */
 
     #underskrift_container {

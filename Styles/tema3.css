@@ -1,3 +1,7 @@
+main {
+    max-width: 1700px;
+}
+
 img {
     width: 100%;
 }
@@ -111,7 +115,7 @@ a {
 
     #first_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -119,7 +123,7 @@ a {
 
     #second_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -127,7 +131,7 @@ a {
 
     #third_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr auto 1fr 1fr;
+        grid-template-rows: 1fr 1fr auto;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -135,8 +139,7 @@ a {
 
     #fourth_section .section_wrapper {
         display: grid;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto auto;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
@@ -144,42 +147,10 @@ a {
 
     #fifth_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr auto;
+        grid-template-columns: auto;
         grid-gap: 2rem;
         border: 3px solid #ffffff;
         padding: 1rem;
     }
 
-    #sixth_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 2rem;
-        border: 3px solid #ffffff;
-        padding: 1rem;
-    }
-
-    #seventh_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        grid-gap: 2rem;
-        border: 3px solid #ffffff;
-        padding: 1rem;
-    }
-
-    #eigth_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 5fr 1fr;
-        grid-gap: 2rem;
-        border: 3px solid #ffffff;
-        padding: 1rem;
-    }
-
-    #ninth_section .section_wrapper {
-        display: grid;
-        grid-template-rows: 3fr 1fr;
-        grid-gap: 2rem;
-        border: 3px solid #ffffff;
-        padding: 1rem;
-        padding-bottom: 2rem;
-    }
 }
