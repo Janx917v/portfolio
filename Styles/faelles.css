@@ -1,9 +1,19 @@
-img {
-    width: 100%;
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
+
 
 main {
     position: relative;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+section {
+    padding: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem
 }
 
 header {
@@ -16,7 +26,6 @@ body {
     background-color: #000000;
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
 }
 
 
@@ -28,20 +37,23 @@ nav {
     justify-content: space-around;
     align-items: end;
 
-    /*  flex-direction: column;
-        height: 65vh;
-        text-align: right;*/
+}
+
+nav a {
+    font-family: 'Orbitron', sans-serif;
+    color: #000000;
+    text-decoration: none;
 }
 
 a {
     font-family: 'Orbitron', sans-serif;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
 
 }
 
 .socialMedias {
-    margin-top: -3.12rem;
+
     margin-right: 1.6rem;
 
 }
@@ -56,20 +68,29 @@ a {
     height: 4vh;
 }
 
+footer p {
+    font-size: 10px;
+    margin-left: 1px;
+    color: black;
+    margin-right: 15rem;
+}
+
 footer {
     position: fixed;
+    display: flex;
     left: 0;
     bottom: 0;
     width: 100%;
     height: auto;
     background-color: #ffffff;
-    color: black;
     text-align: end;
     padding: .10rem;
 }
 
+
 h1 {
     font-family: 'Major Mono Display', monospace;
+    color: #ffffff;
 }
 
 h2 {
@@ -77,19 +98,43 @@ h2 {
     color: white;
 }
 
-/* figcaption {
+h3 {
     font-family: 'Orbitron', sans-serif;
-} */
+    color: #ffffff;
+}
 
 p {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     color: #ffffff;
     line-height: 1.5;
 }
 
-/* ---------------  Oprindelig hed den 650px: ---------------  */
+li {
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+    line-height: 1.5;
+}
 
-@media (max-width: 767px) {
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 62px;
+    right: 10px;
+    z-index: 99;
+    border: 10px double #ffffff;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+
+@media (max-width: 800px) {
 
     .menulink {
         display: none;
@@ -124,6 +169,7 @@ p {
 
     .hidden {
         opacity: 0;
+        transform: translateX(-150%);
 
     }
 
@@ -131,8 +177,7 @@ p {
         font-family: 'Orbitron', sans-serif;
 
         cursor: pointer;
-        /*        text-decoration: none;
-        */
+
     }
 
     #burgersection {
@@ -179,7 +224,7 @@ p {
     }
 }
 
-@media (min-width: 651px) {
+@media (min-width: 801px) {
     .burgermenu {
         display: none;
     }

@@ -1,75 +1,64 @@
-#cv {}
-
-
-
-
 /* ---------------  Mobil: ---------------  */
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
 
-
-    main {
-        position: relative;
-        min-height: 115vh;
-    }
 
     #cv_container {
         position: absolute;
-        top: -18vw;
-        left: -4vw;
+        top: -6vw;
+        left: 0vw;
         border: 3px solid white;
         margin: 33px;
         width: 65px;
         height: 65px;
-
     }
 
 
     #cv_sprite {
-        font-size: 13px;
+        font-size: 1.5rem;
         border: 2px solid white;
         margin: 11px;
-        width: 60px;
+        width: 95px;
         height: 60px;
         text-align: center;
-        /*
-    padding: 12px;
-    border-radius: 26px;
-*/
     }
 
-    #tekst {
+    #tekst_container {
         position: absolute;
-        top: -20vw;
+        top: -6vw;
         left: 40vw;
         border: 3px solid white;
-        margin: 35px;
-        width: 133px;
-        height: 700px;
-        padding: 18px;
-        font-size: 10px;
+        margin-right: 10px;
+        padding: 10px;
+
+
     }
 
-    #selvportraet {
-        position: absolute;
-        background-image: url(../Foto/selvportraet_02.png);
-        background-size: cover;
-        width: 45vw;
-        height: 88vh;
-        top: 38vw;
+
+
+    #selvportraet_container {
+        top: 41vw;
         left: 3vw;
     }
 
+    #selvportraet_sprite {
+        background-image: url(../Foto/selvportraet_02.png);
+        background-size: cover;
+        width: 37vw;
+        height: 131vw;
+    }
+
+    #underskrift_container {
+        top: 175.3vw;
+        left: 53vw;
+        padding-bottom: 30px;
+    }
 
     #underskrift_sprite {
-        position: absolute;
         background-image: url(../Foto/Underskrift.png);
         background-size: cover;
-        width: 32vw;
-        height: 10vh;
-        top: 175.3vw;
-        left: 62vw;
-
+        width: 33vw;
+        height: 18vw;
     }
 }
 
@@ -77,7 +66,7 @@
 
 /* ---------------  Ipad i højformat: ---------------  */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 801px) {
 
     #cv_container {
         position: absolute;
@@ -105,44 +94,53 @@
 */
     }
 
-    #tekst {
+    #tekst_container {
         position: absolute;
         top: -1vw;
         left: 42vw;
         border: 3px solid white;
-        margin: 35px;
-        width: 300px;
-        height: 744px;
-        padding: 30px;
+        margin-right: 10px;
+        padding: 10px;
     }
 
-    #selvportraet {
+
+
+    #selvportraet_container {
         position: absolute;
+        top: 8vw;
+        left: 14vw;
+    }
+
+    #selvportraet_sprite {
         background-image: url(../Foto/selvportraet_02.png);
         background-size: cover;
-        width: 30vw;
-        height: 80vh;
-        top: 8vw;
-        left: 12vw;
+        width: 23vw;
+        height: 80vw;
     }
 
-    #underskrift_sprite {
+    #underskrift_container {
         position: absolute;
+        top: 31.3vw;
+        left: 27vw;
+    }
+
+
+    #underskrift_sprite {
         background-image: url(../Foto/Underskrift.png);
         background-size: cover;
         width: 24vw;
-        height: 10vh;
-        top: 101.3vw;
-        left: 69vw;
-
+        height: 13.5vw;
     }
 }
 
 
 /* ---------------  Ipad i bredformat: ---------------  */
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
 
+    main {
+        position: relative;
+    }
 
     #cv_container {
         position: absolute;
@@ -151,9 +149,7 @@
         border: 3px solid white;
         margin: 34px;
         width: 70px;
-        /*
-    height: 70px;
-*/
+        height: 70px;
     }
 
     #cv_sprite {
@@ -164,95 +160,108 @@
         height: 70px;
         text-align: left;
         padding: 9px;
-
     }
 
-    #tekst {
+    #tekst_container {
         position: absolute;
         top: -2vw;
-        left: 44vw;
+        left: 51vw;
         border: 3px solid white;
-        margin: 35px;
-        width: 450px;
-        height: 503px;
-        padding: 30px;
     }
 
-    #selvportraet {
+    #tekst_sprite {
+        margin: 35px;
+        width: 370px;
+        height: 604px;
+        padding-bottom: 17px;
+    }
+
+    #selvportraet_container {
         position: absolute;
-        background-image: url(../Foto/Selvportraet_1.png);
-        background-size: cover;
-        width: 59vw;
-        height: 76vh;
         top: 9vw;
         left: -2vw;
     }
 
-    #underskrift_sprite {
+    #selvportraet_sprite {
+        background-image: url(../Foto/Selvportraet_1.png);
+        background-size: cover;
+        width: 62vw;
+        height: 76vh;
+    }
+
+    #underskrift_container {
         position: absolute;
+        top: 58.3vw;
+        left: 79vw;
+    }
+
+    #underskrift_sprite {
         background-image: url(../Foto/Underskrift.png);
         background-size: cover;
-        width: 14vw;
+        width: 16vw;
         height: 10vh;
-        top: 51.3vw;
-        left: 83vw;
+
 
     }
 }
-
+ */
 
 /* --------------- Web version ---------------  */
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1200px) {
+
+
 
     #cv_container {
         position: absolute;
-        top: -2vw;
-        left: 0vw;
+        top: -4vw;
+        left: 2vw;
         border: 3px solid white;
-        margin: 34px;
-        width: 82px;
+        width: 185px;
+        height: 100px;
     }
 
 
     #cv_sprite {
-        font-size: 17px;
+        font-size: 2rem;
         border: 2px solid white;
         margin: 11px;
-        width: 70px;
-        height: 50px;
-        text-align: left;
-        padding: 9px;
+        width: 230px;
+        height: 70px;
+        text-align: center;
     }
 
-    #tekst {
+    #tekst_container {
         position: absolute;
-        top: -2vw;
+        top: 4vw;
         left: 48vw;
         border: 3px solid white;
-        margin: 35px;
-        width: 600px;
-        height: 630px;
-        padding: 30px;
     }
 
-    #selvportraet {
+
+
+    #selvportraet_container {
         position: absolute;
-        background-image: url(../Foto/Selvportraet_1.png);
-        background-size: cover;
-        width: 49vw;
-        height: 85vh;
-        top: 2vw;
+        top: 1vw;
         left: -2vw;
     }
 
-    #underskrift_sprite {
+    #selvportraet_sprite {
+        background-image: url(../Foto/Selvportraet_1.png);
+        background-size: cover;
+        width: 56vw;
+        height: 60vw;
+    }
+
+    #underskrift_container {
         position: absolute;
+        top: 16vw;
+        left: 31vw;
+    }
+
+    #underskrift_sprite {
         background-image: url(../Foto/Underskrift.png);
         background-size: cover;
-        width: 17vw;
-        height: 15vh;
-        top: 42.3vw;
-        left: 78vw;
-
+        width: 18vw;
+        height: 10vw;
     }
 }

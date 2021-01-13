@@ -1,0 +1,367 @@
+/*------ ÆNDRET------*/
+
+img {
+    max-width: 100%;
+    max-height: 25vw;
+}
+
+/*------ ÆNDRET------*/
+
+main {
+    position: relative;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    height: 0;
+    margin-bottom: 5.25rem;
+}
+
+body {
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+nav {
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    /*    position: fixed;
+    width: ;
+    height: ;
+      flex-direction: column;
+        height: 65vh;
+        text-align: right;*/
+}
+
+/*------ ÆNDRET------*/
+
+nav a {
+    font-family: 'Orbitron', sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+a {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.socialMedias {
+    /*    margin-top: -3.12rem;
+    */
+    margin-right: 1.6rem;
+
+}
+
+.facebook {
+    width: 7vw;
+    height: 4vh;
+}
+
+.instagram {
+    width: 7vw;
+    height: 4vh;
+}
+
+footer p {
+    font-size: 10px;
+    margin-left: 1px;
+    color: black;
+    margin-right: 15rem;
+}
+
+footer {
+    /*   position: fixed;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto; */
+    background-color: #ffffff;
+    text-align: end;
+    padding: .10rem;
+}
+
+/*footer p {
+    font-size: 10px;
+    margin-left: 1px;
+    color: black;
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: end;
+    padding: .10rem;
+}*/
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+/* figcaption {
+    font-family: 'Orbitron', sans-serif;
+} */
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+/*------ TemaTest------*/
+
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+}
+
+video {
+    width: 100%;
+    object-fit: cover;
+}
+
+section {
+    padding: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem
+}
+
+a {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#cv_container {
+    position: absolute;
+    top: -1vw;
+    left: 2vw;
+    border: 3px solid white;
+    width: 65px;
+    height: 65px;
+}
+
+
+#cv_sprite {
+    font-size: 13px;
+    border: 2px solid white;
+    margin: 11px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+#intro_container {
+    position: absolute;
+    top: -1vw;
+    left: 85vw;
+}
+
+
+#intro_sprite {}
+
+#first_section .section_wrapper {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
+#second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
+#third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr 1fr;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
+#fourth_section .section_wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
+#fifth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
+#sixth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
+#seventh_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
+#eigth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+}
+
+#ninth_section .section_wrapper {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+/* #ninth_section .section_wrapper {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-gap: 2rem;
+    border: 3px solid #ffffff;
+    padding: 1rem;
+} */
+
+
+
+/* ---------------  Oprindelig hed den 650px: ---------------  */
+
+@media (max-width: 767px) {
+
+    .menulink {
+        display: none;
+    }
+
+    .menulinklast {
+        display: none;
+    }
+
+    .burgermenu {
+        display: block;
+        float: right;
+        font-size: 25px;
+        padding: 0;
+        text-align: right;
+        height: 35px;
+        width: 100%
+    }
+
+    #burgerknap {
+        margin-right: 15px;
+        margin-top: 5px;
+        display: inline-block;
+        cursor: pointer;
+
+    }
+
+    .burgerknap {
+        margin-right: 2rem;
+
+    }
+
+    .hidden {
+        opacity: 0;
+        transform: translateX(-150%);
+
+    }
+
+    .burgermenulink {
+        font-family: 'Orbitron', sans-serif;
+
+        cursor: pointer;
+        /*        text-decoration: none;
+        */
+    }
+
+    #burgersection {
+        position: relative;
+        transition: transform 0.3s;
+        background: #ffffff;
+        margin-top: 0.5rem;
+        line-height: 50px;
+        z-index: 2;
+    }
+
+    #burgersection li {
+        margin-top: -0.75rem;
+        text-align: center;
+        padding: 10px;
+        padding-right: 30px;
+    }
+
+    .burgermenulink:link {
+        color: black;
+
+    }
+
+    .burgermenulink:visited {
+        color: black;
+    }
+
+    .burgermenulink:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 2;
+        content: "";
+        display: block;
+        height: 1.5px;
+        left: 50%;
+        position: absolute;
+        background: black;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    .burgermenulinklast:hover:after {
+        width: 100%;
+        left: 0;
+    }
+}
+
+@media (min-width: 651px) {
+    .burgermenu {
+        display: none;
+    }
+}

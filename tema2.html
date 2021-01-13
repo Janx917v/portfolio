@@ -6,9 +6,20 @@
     <meta name="robots" content="noindex">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="Styles/faelles.css">
+    <title>Tema 2</title>
     <link rel="stylesheet" href="Styles/tema2.css">
+    <link rel="stylesheet" href="Styles/faelles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -25,8 +36,7 @@
             </ul>
         </nav>
         <nav>
-            <!--             <a class="menulogo" href="index.html"> <img class="logonav" src="svg/logo.svg" alt="Logo"></a>
-             --> <a class="menulink" href="index.html">Hjem</a>
+            <a class="menulink" href="index.html">Hjem</a>
             <a class="menulink" href="cv.html">CV</a>
             <a class="menulink" href="tema2.html">Tema 2</a>
             <a class="menulink" href="tema3.html">Tema 3</a>
@@ -34,11 +44,72 @@
             <a class="menulinklast" href="tema5.html">Tema 5</a>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section>
+            <div id="cv_container">
+                <div id="cv_sprite">
+                    <h2>Tema 2</h2>
+                </div>
+            </div>
+
+            <section id=first_section>
+                <h3>Moodboard Brutalism</h3>
+                <div class="section_wrapper">
+                    <div class="col1">
+                        <img src="Tema_2/Moodboard_jannielsen.jpg" alt="moodboard">
+                    </div>
+                    <div class="col2">
+                        <p>I dette tema blev vi først inddelt i grupper og herefter tildelt hver vores stilart. Vi blev bedt om at undersøge stilarten, finde eksempler på den, for til sidst at fremlægge vores stil, dens historie og dens kendetegn for resten af holdet.
+                            Min gruppe blev tildelt stilarten Brutalism, som har sit udspring i Postmodernismen</p>
+                        <p>Ud over stilarterne, blev vi også introduceret til fonte og deres betydning, herunder i både visuelt, men også rent praktisk i forhold til fx. læsbarhed</p>
+                    </div>
+                </div>
+            </section>
+            <section id=second_section>
+                <h3>Mobil vs Web</h3>
+                <div class="section_wrapper">
+                    <div class="col1">
+                        <img src="Tema_2/Sk%C3%A6rmbillede%202021-01-10%20kl.%2013.37.55.png" alt="responsive_1_2">
+                    </div>
+                    <div class="col2">
+                        <img src="Tema_2/Sk%C3%A6rmbillede%202021-01-10%20kl.%2013.38.16.png" alt="responsive_1_3">
+                    </div>
+                    <div class="col3">
+                        <p>Efter at have arbejdet med vores tildelte stilarter og forskellige øvelser med fonte i Brackets, skulle jeg til at designe min første hjemmeside.
+                            Her blev vi præsenteret for en hjemmeside med 6 sektioner, hvor vi selv skulle tegne wireframen i Adobe XD</p>
+                        <br>
+                        <p>På billederne her kan ses det første udkast til min hjemmeside i hhv. mobil version og web version</p>
+                        <br>
+                        <p>Herunder kan ses uddrag fra den færdige side. Den færdige side er lavet ud fra den tildelte stil Brutalism. En stil som personligt var en spændende udfordring at skulle arbejde med, da denne stil vanligvis er en stilart jeg ville gå uden om og som ligger langt fra den valg jeg normalt oftes vil tage rent designmæssigt. Nederst findes link til den komplette side.</p>
+                    </div>
+                </div>
+            </section>
+            <section id=third_section>
+                <h3>Den færdige side</h3>
+                <div class="section_wrapper">
+                    <div class="col1">
+                        <img src="Tema_2/Sk%C3%A6rmbillede%202021-01-10%20kl.%2015.09.13.png" alt="responsive_2_1">
+                    </div>
+                    <div class="col2">
+                        <img src="Tema_2/Sk%C3%A6rmbillede%202021-01-10%20kl.%2015.09.29.png" alt="responsive_2_2">
+                    </div>
+                    <div class="col3">
+                        <img src="Tema_2/Sk%C3%A6rmbillede%202021-01-10%20kl.%2015.09.43.png" alt="responsive_2_3">
+                    </div>
+                    <div class="col4">
+                        <img src="Tema_2/Sk%C3%A6rmbillede%202021-01-10%20kl.%2015.09.59.png" alt="responsive_2_4">
+                    </div>
+                </div>
+                <p>Link til:</p>
+                <a href="http://krarupkling.dk/kea/02_web/04_responsive/responsive_v2/index.html">Responsive Web V2</a>
+            </section>
+        </section>
+    </main>
     <footer>
         <a class="socialMedias" href="https://www.facebook.com/jan.nielsen.77" target="_blank"> <img class="facebook" src="Foto/facebook.svg" alt="Facebook"></a>
         <a class="socialMedias" href="https://www.instagram.com/capoco/" target="_blank"> <img class="instagram" src="Foto/instagram.svg" alt="Instagram"></a>
     </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <script src="javascript/javascript.js"></script>
 </body>
 

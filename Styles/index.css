@@ -1,132 +1,1185 @@
-#foto_1_container {
+/* ---------------  Mobil: ---------------  */
+
+@media (max-width: 800px) {
+
+    /*-------------- LOGO ---------------- */
+
+    #h1_container {
+        position: absolute;
+        top: -5vw;
+        left: 6vw;
+    }
+
+    #h1_sprite {
+        font-size: 2rem;
+    }
+
+    #h2_container {
+        position: absolute;
+        top: 2.5vw;
+        left: 35.4vw;
+    }
+
+    #h2_sprite {
+        font-size: 1rem;
+    }
+
+    /*-------------- UNDERSKRIFT ---------------- */
+
+    #underskrift_container {
+        position: absolute;
+        top: 77vw;
+        left: 57vw;
+    }
+
+    #underskrift_sprite {
+        background-image: url(../Foto/Underskrift.png);
+        background-size: cover;
+        width: 31vw;
+        height: 17.1vw;
+    }
+
+    /*-------------- FOTOS ---------------- */
+
+    #foto_1_container {
+        position: absolute;
+        top: 40vw;
+        left: 48vw;
+    }
+
+    #foto_1_sprite {
+        position: absolute;
+        background-image: url(../Foto/selvportraet_04.png);
+        background-size: cover;
+        /*    border: 2px solid white;*/
+        width: 50vw;
+        height: 43vw;
+
+    }
+
+    #foto_2_container {
+        position: absolute;
+        top: 317vw;
+        left: 23.3vw;
+    }
+
+
+    #foto_2_sprite {
+        position: absolute;
+        background-image: url(../Foto/hvidt_logo.png);
+        background-size: cover;
+        /*    border: 2px solid white;*/
+        width: 50vw;
+        height: 50vw;
+
+    }
+
+    #foto_3_container {
+        position: absolute;
+        top: 442vw;
+        left: 7vw;
+        padding-bottom: 70vw;
+    }
+
+    #foto_3_sprite {
+        position: absolute;
+        background-image: url(../Foto/le_hat.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 82vw;
+        height: 46vw;
+
+    }
+
+    #foto_4_container {
+        position: absolute;
+        top: 17vw;
+        left: 7vw;
+
+    }
+
+    #foto_4_sprite {
+        position: absolute;
+        background-image: url(../Foto/Ligth_gradient_lens_sky_2.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 44vw;
+        height: 70vw;
+
+    }
+
+    #foto_5_container {
+        position: absolute;
+        top: 167vw;
+        left: 7vw;
+        border: 2px solid #ffffff;
+        width: 77vw;
+        height: 73vw;
+        padding: 2px;
+    }
+
+    #foto_5_sprite {
+        position: absolute;
+        background-image: url(../Foto/tshirt.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 40vw;
+        height: 72vw;
+
+    }
+
+    /* -------------- HVIDE KASSER ----------------  */
+
+    #hvidkasse_1_container {
+        position: absolute;
+        top: 187vw;
+        left: 41vw;
+    }
+
+    #hvidkasse_1_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 48vw;
+        height: 48vw;
+    }
+
+    /*
+    #hvidkasse_2_container {
+        position: absolute;
+        top: 200vw;
+        left: 7vw;
+    }
+
+    #hvidkasse_2_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+
+#hvidkasse_3_container {
     position: absolute;
-    top: 18vw;
-    left: 76vw;
+    top: 34vw;
+    left: 18vw;
 }
 
-#foto_1_sprite {
+#hvidkasse_3_sprite {
     position: absolute;
-    background-image: url(../Foto/selvportraet_03.png);
-    background-size: cover;
-    /*    border: 2px solid white;*/
-    width: 24vw;
-    height: 42vw;
-}
-
-/* ------------------------------  */
-
-#foto_2_container {
-    position: absolute;
-    top: 38vw;
-    left: 10vw;
-}
-
-
-#foto_2_sprite {
-    position: absolute;
-    background-image: url(../Foto/hvidt_logo.png);
-    background-size: cover;
-    /*    border: 2px solid white;*/
-    width: 10vw;
-    height: 10vw;
-}
-
-/* ------------------------------  */
-
-#foto_3_container {
-    position: absolute;
-    top: 6vw;
-    left: 19vw;
-}
-
-#foto_3_sprite {
-    position: absolute;
-    background-image: url(../Foto/le_hat.png);
     background-size: cover;
     border: 2px solid white;
-    width: 25vw;
-    height: 18vw;
+    width: 12vw;
+    height: 12vw;
 }
 
-/* ------------------------------  */
-
-#foto_4_container {
+#hvidkasse_4_container {
     position: absolute;
-    top: 20vw;
-    left: 16vw;
-}
-
-#foto_4_sprite {
-    position: absolute;
-    background-image: url(../Foto/Ligth_gradient_lens_sky_2.png);
-    background-size: cover;
-    border: 2px solid white;
-    width: 15vw;
-    height: 20vw;
-}
-
-/* ------------------------------  */
-
-#foto_5_container {
-    position: absolute;
-    top: 15vw;
-    left: 7vw;
-}
-
-#foto_5_sprite {
-    position: absolute;
-    background-image: url(../Foto/tshirt.png);
-    background-size: cover;
-    border: 2px solid white;
-    width: 11vw;
-    height: 19vw;
-}
-
-/* ------------------------------  */
-
-#foto_6_container {
-    position: absolute;
-    top: 11vw;
+    top: 22vw;
     left: 36vw;
 }
 
-#foto_6_sprite {
+#hvidkasse_4_sprite {
     position: absolute;
     background-size: cover;
     border: 2px solid white;
-    width: 20vw;
-    height: 20vw;
+    width: 12vw;
+    height: 12vw;
 }
 
-/* ------------------------------  */
-
-#foto_7_container {
+#hvidkasse_5_container {
     position: absolute;
-    top: 11vw;
+    top: 26vw;
+    left: 49vw;
+}
+
+#hvidkasse_5_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}
+
+#hvidkasse_6_container {
+    position: absolute;
+    top: 17vw;
+    left: 57vw;
+}
+
+#hvidkasse_6_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}
+
+#hvidkasse_7_container {
+    position: absolute;
+    top: 0vw;
+    left: 41vw;
+}
+
+#hvidkasse_7_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}
+
+#hvidkasse_8_container {
+    position: absolute;
+    top: 8vw;
+    left: 28vw;
+}
+
+#hvidkasse_8_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}*/
+    /* ------------- VIDEO -----------------  */
+
+    #video_1_container {
+        position: absolute;
+        top: 255vw;
+        left: 7vw;
+    }
+
+    #video_1 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 82vw;
+        height: 46vw;
+
+    }
+
+    #video_2_container {
+        position: absolute;
+        top: 380vw;
+        left: 7vw;
+    }
+
+    #video_2 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 82vw;
+        height: 46vw;
+
+    }
+
+    #video_3_container {
+        position: absolute;
+        top: 109vw;
+        left: 7vw;
+    }
+
+    #video_3 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 82vw;
+        height: 46vw;
+    }
+}
+
+/* ---------------  Ipad i højformat: ---------------  */
+
+@media only screen and (min-width: 801px) {
+    /*-------------- LOGO ---------------- */
+
+    #h1_container {
+        position: absolute;
+        top: -3vw;
+        left: 6vw;
+    }
+
+    #h1_sprite {
+        font-size: 4rem;
+    }
+
+    #h2_container {
+        position: absolute;
+        top: 5.5vw;
+        left: 41.2vw;
+    }
+
+    #h2_sprite {
+        font-size: 20px;
+    }
+
+    /*-------------- UNDERSKRIFT ---------------- */
+
+    #underskrift_container {
+        position: absolute;
+        top: 70vw;
+        left: 57vw;
+    }
+
+    #underskrift_sprite {
+        background-image: url(../Foto/Underskrift.png);
+        background-size: cover;
+        width: 32vw;
+        height: 17.1vh;
+    }
+
+    /*-------------- FOTOS ---------------- */
+
+    #foto_1_container {
+        position: absolute;
+        top: 29vw;
+        left: 48vw;
+    }
+
+    #foto_1_sprite {
+        position: absolute;
+        background-image: url(../Foto/selvportraet_04.png);
+        background-size: cover;
+        /*    border: 2px solid white;*/
+        width: 50vw;
+        height: 46vw;
+
+    }
+
+    #foto_2_container {
+        position: absolute;
+        top: 317vw;
+        left: 25.3vw;
+    }
+
+
+    #foto_2_sprite {
+        position: absolute;
+        background-image: url(../Foto/hvidt_logo.png);
+        background-size: cover;
+        /*    border: 2px solid white;*/
+        width: 50vw;
+        height: 50vw;
+
+    }
+
+    #foto_3_container {
+        position: absolute;
+        top: 442vw;
+        left: 7vw;
+        padding-bottom: 70vw;
+    }
+
+    #foto_3_sprite {
+        position: absolute;
+        background-image: url(../Foto/le_hat.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 84vw;
+        height: 47vw;
+
+    }
+
+    #foto_4_container {
+        position: absolute;
+        top: 17vw;
+        left: 7vw;
+
+    }
+
+    #foto_4_sprite {
+        position: absolute;
+        background-image: url(../Foto/Ligth_gradient_lens_sky_2.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 44vw;
+        height: 70vw;
+
+    }
+
+    #foto_5_container {
+        position: absolute;
+        top: 167vw;
+        left: 7vw;
+        border: 2px solid #ffffff;
+        width: 77vw;
+        height: 73vw;
+        padding: 2px;
+    }
+
+    #foto_5_sprite {
+        position: absolute;
+        background-image: url(../Foto/tshirt.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 40vw;
+        height: 72.5vw;
+
+    }
+
+    /* -------------- HVIDE KASSER ----------------  */
+
+    #hvidkasse_1_container {
+        position: absolute;
+        top: 187vw;
+        left: 41vw;
+    }
+
+    #hvidkasse_1_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 50vw;
+        height: 48vw;
+    }
+
+    /*
+    #hvidkasse_2_container {
+        position: absolute;
+        top: 200vw;
+        left: 7vw;
+    }
+
+    #hvidkasse_2_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+
+#hvidkasse_3_container {
+    position: absolute;
+    top: 34vw;
+    left: 18vw;
+}
+
+#hvidkasse_3_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}
+
+#hvidkasse_4_container {
+    position: absolute;
+    top: 22vw;
     left: 36vw;
 }
 
-#foto_7_sprite {
+#hvidkasse_4_sprite {
     position: absolute;
-    background-image: url(../Foto/logo_1.png);
     background-size: cover;
     border: 2px solid white;
-    width: 20vw;
-    height: 20vw;
+    width: 12vw;
+    height: 12vw;
+}
+
+#hvidkasse_5_container {
+    position: absolute;
+    top: 26vw;
+    left: 49vw;
+}
+
+#hvidkasse_5_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}
+
+#hvidkasse_6_container {
+    position: absolute;
+    top: 17vw;
+    left: 57vw;
+}
+
+#hvidkasse_6_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}
+
+#hvidkasse_7_container {
+    position: absolute;
+    top: 0vw;
+    left: 41vw;
+}
+
+#hvidkasse_7_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}
+
+#hvidkasse_8_container {
+    position: absolute;
+    top: 8vw;
+    left: 28vw;
+}
+
+#hvidkasse_8_sprite {
+    position: absolute;
+    background-size: cover;
+    border: 2px solid white;
+    width: 12vw;
+    height: 12vw;
+}*/
+    /* ------------- VIDEO -----------------  */
+
+    #video_1_container {
+        position: absolute;
+        top: 255vw;
+        left: 7vw;
+    }
+
+    #video_1 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 84vw;
+        height: 47vw;
+
+    }
+
+    #video_2_container {
+        position: absolute;
+        top: 380vw;
+        left: 7vw;
+    }
+
+    #video_2 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 84vw;
+        height: 47vw;
+
+    }
+
+    #video_3_container {
+        position: absolute;
+        top: 109vw;
+        left: 7vw;
+    }
+
+    #video_3 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 84vw;
+        height: 47vw;
+    }
+}
+
+/* ---------------  Ipad i bredformat: ---------------  */
+
+/* @media only screen and (min-width: 1024px) {
+    -------------- LOGO ----------------
+
+    #h1_container {
+        position: absolute;
+        top: -4vw;
+        left: 6vw;
+    }
+
+    #h1_sprite {
+        font-size: 30px;
+    }
+
+    #h2_container {
+        position: absolute;
+        top: 2.5vw;
+        left: 7.1vw;
+    }
+
+    #h2_sprite {
+        font-size: 20px;
+    }
+
+    -------------- UNDERSKRIFT ----------------
+
+    #underskrift_container {
+        position: absolute;
+        top: 47vw;
+        left: 19vw;
+    }
+
+    #underskrift_sprite {
+        background-image: url(../Foto/Underskrift.png);
+        background-size: cover;
+        width: 10vw;
+        height: 5.4vw;
+    }
+
+    -------------- FOTOS ----------------
+
+    #foto_1_container {
+        position: absolute;
+        top: 29vw;
+        left: 55vw;
+    }
+
+    #foto_1_sprite {
+        position: absolute;
+        background-image: url(../Foto/selvportraet_04.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 45vw;
+        height: 41vw;
+        z-index: ;
+
+    }
+
+    #foto_2_container {
+        position: absolute;
+        top: 6vw;
+        left: 42.3vw;
+    }
+
+
+    #foto_2_sprite {
+        position: absolute;
+        background-image: url(../Foto/hvidt_logo.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 10vw;
+        height: 10vw;
+        z-index: ;
+
+    }
+
+    #foto_3_container {
+        position: absolute;
+        top: 17vw;
+        left: 35vw;
+        padding-bottom: 0;
+    }
+
+    #foto_3_sprite {
+        position: absolute;
+        background-image: url(../Foto/le_hat.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 22vw;
+        height: 15vw;
+        z-index: ;
+
+    }
+
+    #foto_4_container {
+        position: absolute;
+        top: 8vw;
+        left: 54vw;
+
+    }
+
+    #foto_4_sprite {
+        position: absolute;
+        background-image: url(../Foto/Ligth_gradient_lens_sky_2.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 13vw;
+        height: 17vw;
+        z-index: ;
+
+    }
+
+    #foto_5_container {
+        position: absolute;
+        top: 22vw;
+        left: 24vw;
+        width: 0vw;
+        height: 0vw;
+        border: none;
+    }
+
+    #foto_5_sprite {
+        position: absolute;
+        background-image: url(../Foto/tshirt.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 22vw;
+        z-index: ;
+
+    }
+
+    -------------- HVIDE KASSER ----------------
+
+    #hvidkasse_1_container {
+        position: absolute;
+        top: 20vw;
+        left: 10vw;
+    }
+
+    #hvidkasse_1_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_2_container {
+        position: absolute;
+        top: 29vw;
+        left: 7vw;
+    }
+
+    #hvidkasse_2_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_3_container {
+        position: absolute;
+        top: 39vw;
+        left: 18vw;
+    }
+
+    #hvidkasse_3_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_4_container {
+        position: absolute;
+        top: 27vw;
+        left: 36vw;
+    }
+
+    #hvidkasse_4_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_5_container {
+        position: absolute;
+        top: 31vw;
+        left: 49vw;
+    }
+
+    #hvidkasse_5_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_6_container {
+        position: absolute;
+        top: 22vw;
+        left: 57vw;
+    }
+
+    #hvidkasse_6_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_7_container {
+        position: absolute;
+        top: 5vw;
+        left: 41vw;
+    }
+
+    #hvidkasse_7_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_8_container {
+        position: absolute;
+        top: 13vw;
+        left: 28vw;
+    }
+
+    #hvidkasse_8_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    ------------- VIDEO -----------------
+
+    #video_1_container {
+        position: absolute;
+        top: 35vw;
+        left: 11vw;
+    }
+
+    #video_1 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 20vw;
+        height: 11vw;
+        z-index: ;
+
+    }
+
+    #video_2_container {
+        position: absolute;
+        top: 30vw;
+        left: 46vw;
+    }
+
+    #video_2 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 18vw;
+        height: 10vw;
+        z-index: ;
+
+    }
+
+    #video_3_container {
+        position: absolute;
+        top: 12vw;
+        left: 20vw;
+    }
+
+    #video_3 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 17vw;
+        height: 9vw;
+        z-index: ;
+    }
+} */
+
+/* --------------- Web version ---------------  */
+@media only screen and (min-width: 1200px) {
+    /*-------------- LOGO ---------------- */
+
+    #h1_container {
+        position: absolute;
+        top: -1vw;
+        left: 6vw;
+    }
+
+    #h1_sprite {
+        font-size: 4rem;
+    }
+
+    #h2_container {
+        position: absolute;
+        top: 3.5vw;
+        left: 7.1vw;
+    }
+
+    #h2_sprite {
+        font-size: 1.5rem;
+    }
+
+    .grow:hover {
+        transform: scale(2);
+        z-index: 50;
+    }
+
+    .grow_1:hover {
+        transform: scale(1.5);
+        z-index: 50;
+    }
+
+    .grow_2:hover {
+        transform: scale(2.5);
+        z-index: 50;
+    }
+
+    /*-------------- UNDERSKRIFT ---------------- */
+
+    #underskrift_container {
+        position: absolute;
+        top: 42vw;
+        left: 19vw;
+    }
+
+    #underskrift_sprite {
+        background-image: url(../Foto/Underskrift.png);
+        background-size: cover;
+        width: 10vw;
+        height: 5.5vw;
+    }
+
+    /*-------------- FOTOS ---------------- */
+
+    #foto_1_container {
+        position: absolute;
+        top: 6vw;
+        left: 55vw;
+    }
+
+    #foto_1_sprite {
+        position: absolute;
+        background-image: url(../Foto/selvportraet_04.png);
+        background-size: cover;
+        /*    border: 2px solid white;*/
+        width: 44vw;
+        height: 47vw;
+
+    }
+
+    #foto_2_container {
+        position: absolute;
+        top: 1vw;
+        left: 42.3vw;
+    }
+
+
+    #foto_2_sprite {
+        position: absolute;
+        background-image: url(../Foto/hvidt_logo.png);
+        background-size: cover;
+        /*    border: 2px solid white;*/
+        width: 10vw;
+        height: 10vw;
+
+    }
+
+    #foto_3_container {
+        position: absolute;
+        top: 12vw;
+        left: 35vw;
+    }
+
+    #foto_3_sprite {
+        position: absolute;
+        background-image: url(../Foto/le_hat.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 22vw;
+        height: 15vw;
+
+    }
+
+    #foto_4_container {
+        position: absolute;
+        top: 3vw;
+        left: 54vw;
+
+    }
+
+    #foto_4_sprite {
+        position: absolute;
+        background-image: url(../Foto/Ligth_gradient_lens_sky_2.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 13vw;
+        height: 17vw;
+
+    }
+
+    #foto_5_container {
+        position: absolute;
+        top: 17vw;
+        left: 24vw;
+        border: none;
+        width: 0vw;
+        height: 0vw;
+
+    }
+
+    #foto_5_sprite {
+        position: absolute;
+        background-image: url(../Foto/tshirt.png);
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 22vw;
+
+    }
+
+    /* -------------- HVIDE KASSER ----------------  */
+
+    #hvidkasse_1_container {
+        position: absolute;
+        top: 15vw;
+        left: 10vw;
+    }
+
+    #hvidkasse_1_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_2_container {
+        position: absolute;
+        top: 24vw;
+        left: 7vw;
+    }
+
+    #hvidkasse_2_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_3_container {
+        position: absolute;
+        top: 34vw;
+        left: 18vw;
+    }
+
+    #hvidkasse_3_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_4_container {
+        position: absolute;
+        top: 22vw;
+        left: 36vw;
+    }
+
+    #hvidkasse_4_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_5_container {
+        position: absolute;
+        top: 26vw;
+        left: 49vw;
+    }
+
+    #hvidkasse_5_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_6_container {
+        position: absolute;
+        top: 17vw;
+        left: 57vw;
+    }
+
+    #hvidkasse_6_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_7_container {
+        position: absolute;
+        top: 0vw;
+        left: 41vw;
+    }
+
+    #hvidkasse_7_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #hvidkasse_8_container {
+        position: absolute;
+        top: 8vw;
+        left: 28vw;
+    }
+
+    #hvidkasse_8_sprite {
+        position: absolute;
+        background-size: cover;
+        border: 2px solid white;
+        width: 12vw;
+        height: 12vw;
+    }
+
+    /* ------------- VIDEO -----------------  */
+
+    #video_1_container {
+        position: absolute;
+        top: 30vw;
+        left: 11vw;
+    }
+
+    #video_1 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 20vw;
+        height: 11vw;
+
+    }
+
+    #video_2_container {
+        position: absolute;
+        top: 25vw;
+        left: 46vw;
+    }
+
+    #video_2 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 18vw;
+        height: 10vw;
+
+    }
+
+    #video_3_container {
+        position: absolute;
+        top: 7vw;
+        left: 20vw;
+    }
+
+    #video_3 {
+        position: relative;
+        object-fit: cover;
+        border: 2px solid white;
+        width: 17vw;
+        height: 9vw;
+    }
 }
 
 /* ------------------------------  */
-
-#video_container {
-    position: absolute;
-    top: 29vw;
-    left: 29vw;
-}
-
-#video {
-    position: relative;
-    object-fit: cover;
-    border: 2px solid white;
-    width: 30vw;
-    height: 17vw;
-}
+/* ------------------------------  */
